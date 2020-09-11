@@ -191,7 +191,7 @@ type AudioCodecData interface {
 }
 
 type PacketWriter interface {
-	WritePacket(Packet) error
+	WritePacket(Packet) ([]byte, error)
 }
 
 type PacketReader interface {
