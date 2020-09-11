@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/deepch/vdk/av"
-	"github.com/deepch/vdk/av/pktque"
+	"github.com/kukayyou/avcodec/av"
+	"github.com/kukayyou/avcodec/av/pktque"
 )
 
 var Debug bool

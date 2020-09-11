@@ -2,7 +2,7 @@ package tsio
 
 import (
 	"fmt"
-	"github.com/deepch/vdk/utils/bits/pio"
+	"github.com/kukayyou/avcodec/utils/bits/pio"
 	"io"
 	"time"
 )

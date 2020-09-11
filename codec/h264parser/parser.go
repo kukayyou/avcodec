@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/deepch/vdk/av"
-	"github.com/deepch/vdk/utils/bits"
-	"github.com/deepch/vdk/utils/bits/pio"
+	"github.com/kukayyou/avcodec/av"
+	"github.com/kukayyou/avcodec/utils/bits"
+	"github.com/kukayyou/avcodec/utils/bits/pio"
 )
 
 const (

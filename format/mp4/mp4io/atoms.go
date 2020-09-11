@@ -1,6 +1,6 @@
 package mp4io
 
-import "github.com/deepch/vdk/utils/bits/pio"
+import "github.com/kukayyou/avcodec/utils/bits/pio"
 import "time"
 
 const MOOF = Tag(0x6d6f6f66)

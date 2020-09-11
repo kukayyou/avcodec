@@ -9,7 +9,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/deepch/vdk/av"
+	"github.com/kukayyou/avcodec/av"
 )
 
 type HandlerDemuxer struct {

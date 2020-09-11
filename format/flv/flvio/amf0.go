@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/deepch/vdk/utils/bits/pio"
+	"github.com/kukayyou/avcodec/utils/bits/pio"
 )
 
 type AMF0ParseError struct {
