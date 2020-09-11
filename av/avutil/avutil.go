@@ -285,7 +285,7 @@ func CopyPackets(dst av.PacketWriter, src av.PacketReader) (err error) {
 			}
 			return
 		}
-		if err = dst.WritePacket(pkt); err != nil {
+		if _,err = dst.WritePacket(pkt); err != nil {
 			return
 		}
 	}

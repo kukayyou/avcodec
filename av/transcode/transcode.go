@@ -175,7 +175,7 @@ func (self *Muxer) WritePacket(pkt av.Packet) (err error) {
 		return
 	}
 	for _, pkt := range outpkts {
-		if err = self.Muxer.WritePacket(pkt); err != nil {
+		if _, err = self.Muxer.WritePacket(pkt); err != nil {
 			return
 		}
 	}

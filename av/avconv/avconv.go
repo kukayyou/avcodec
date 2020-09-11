@@ -242,7 +242,7 @@ func ConvertCmdline(args []string) (err error) {
 		if duration != 0 && pkt.Time > duration {
 			break
 		}
-		if err = muxer.WritePacket(pkt); err != nil {
+		if _, err = muxer.WritePacket(pkt); err != nil {
 			return
 		}
 	}
